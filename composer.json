@@ -1,0 +1,35 @@
+{
+    "name": "mabdulmonem/arjbank",
+    "description": "Package Payment Gateway With Alrajhi Bank with laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mabdulmonem\\ArjBank\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamed Abdulmonem",
+            "email": "mabdulalmonem@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+    },
+    "require-dev": {
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mabdulmonem\\ArjBank\\Providers\\ArjBankServiceProvider"
+            ]
+        },
+        "aliases": {
+            "ArjBank": "Mabdulmonem\\ArjBank\\Facades\\ArjBank"
+        }
+    }
+
+}
